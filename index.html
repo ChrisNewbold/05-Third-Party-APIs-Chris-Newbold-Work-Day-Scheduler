@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <!-- browser settings -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- JavaScript Link set to defer so that it runs at the end -->
+    <script src="./Assets/script.js" defer></script>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./Assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <!-- This is the link to font awesome -->
+    <script
+      src="https://kit.fontawesome.com/bf033459d4.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- link to google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- site title for SEO -->
+    <title>Work Day Scheduler by Chris Newbold</title>
+  </head>
+  <!-- header of the site -->
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">My Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <!-- 9am Time Slot -->
+    <div class="container">
+      <form class="row" id="hour9">
+        <div class="hour">9am</div>
+        <textarea id="hour9input" name="userinput"></textarea>
+        <button class="saveBtn">
+          <i class="fa fa-solid fa-floppy-disk"></i>
+        </button>
+      </form>
+      <!-- 10am Time Slot -->
+      <form class="row" id="hour10">
+        <div class="hour">10am</div>
+        <textarea id="hour10input" name="userinput"></textarea>
+        <button class="saveBtn">
+          <i class="fa fa-solid fa-floppy-disk"></i>
+        </button>
+      </form>
+      <!-- 11am Time Slot -->
+      <form class="row" id="hour11">
+        <div class="hour">11am</div>
+        <textarea id="hour11input" name="userinput"></textarea>
+        <button class="saveBtn">
+          <i class="fa fa-solid fa-floppy-disk"></i>
+        </button>
+      </form>
+      <!-- 12pm Time Slot -->
+      <form class="row" id="hour12">
+        <div class="hour">12pm</div>
+        <textarea id="hour12input" name="userinput"></textarea>
+        <button class="saveBtn">
+          <i class="fa fa-solid fa-floppy-disk"></i>
+        </button>
+      </form>
+      <!-- 1pm Time Slot -->
+      <form class="row" id="hour13">
+        <div class="hour">1pm</div>
+        <textarea id="hour13input" name="userinput"></textarea>
+        <button class="saveBtn">
+          <i class="fa fa-solid fa-floppy-disk"></i>
+        </button>
+      </form>
+      <!-- 2pm Time Slot -->
+      <form class="row" id="hour14">
+        <div class="hour">2pm</div>
+        <textarea id="hour14input" name="userinput"></textarea>
+        <button class="saveBtn">
+          <i class="fa fa-solid fa-floppy-disk"></i>
+        </button>
+      </form>
+      <!-- 3pm Time Slot -->
+      <form class="row" id="hour15">
+        <div class="hour">3pm</div>
+        <textarea id="hour15input" name="userinput"></textarea>
+        <button class="saveBtn">
+          <i class="fa fa-solid fa-floppy-disk"></i>
+        </button>
+      </form>
+      <!-- 4pm Time Slot -->
+      <form class="row" id="hour16">
+        <div class="hour">4pm</div>
+        <textarea id="hour16input" name="userinput"></textarea>
+        <button class="saveBtn">
+          <i class="fa fa-solid fa-floppy-disk"></i>
+        </button>
+      </form>
+      <!-- 5pm Time Slot -->
+      <form class="row" id="hour17">
+        <div class="hour">5pm</div>
+        <textarea id="hour17input" name="userinput"></textarea>
+        <button class="saveBtn">
+          <i class="fa fa-solid fa-floppy-disk"></i>
+        </button>
+      </form>
+    </div>
+    <!-- links to jQuery & Moment.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  </body>
+</html>

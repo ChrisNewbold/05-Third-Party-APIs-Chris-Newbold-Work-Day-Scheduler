@@ -1,0 +1,79 @@
+/* this style determins the font style, size and line height of all text captured within the body tag */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+/* this determins the text area */
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 5px solid rgb(207, 206, 206);
+  padding: 10px;
+  flex: 1;
+}
+/* bootstrap class */
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+/* this class determins the white space around the text entry area */
+.description {
+  white-space: pre-wrap;
+}
+/* This is the class that determins how each "row" sits on the page */
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+}
+/* this class determins styleing of the time of day */
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+  width: 80px;
+  text-align: right;
+  padding: 10px;
+}
+/* this class determins the background colour and font colour of the "past" events */
+.past {
+  background-color: #d3d3d3;
+  color: black;
+}
+/* This class determins the background and font colour of events in the present */
+.present {
+  background-color: #ff6961;
+  color: black;
+}
+/* this class dictates the font colour and background colour of all scheduals in the "future" */
+.future {
+  background-color: #77dd77;
+  color: black;
+}
+/* this class determins the size of the save button */
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  width: 80px;
+}
+/* this class determins the size of the "save icon" when the mouse is hovered over it */
+.saveBtn i:hover {
+  font-size: 25px;
+  transition: all 0.3s ease-in-out;
+}
