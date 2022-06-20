@@ -1,4 +1,4 @@
-// const d = new Date();
+
 $("#currentDay").html(moment().format('dddd, MMMM Do'));
 
 const currentHour = moment().hour(); // Number

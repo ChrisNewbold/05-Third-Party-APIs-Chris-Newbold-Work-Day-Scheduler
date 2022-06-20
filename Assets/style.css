@@ -1,3 +1,11 @@
+/* bootstrap class */
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
 /* this style determins the font style, size and line height of all text captured within the body tag */
 body {
   font-family: "Open Sans", sans-serif;
@@ -13,14 +21,6 @@ textarea {
   border-left: 5px solid rgb(207, 206, 206);
   padding: 10px;
   flex: 1;
-}
-/* bootstrap class */
-.jumbotron {
-  text-align: center;
-  background-color: transparent;
-  color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
 }
 /* this class determins the white space around the text entry area */
 .description {
@@ -65,7 +65,7 @@ textarea {
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
-  font-size: 18px;
+  font-size: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,6 +74,6 @@ textarea {
 }
 /* this class determins the size of the "save icon" when the mouse is hovered over it */
 .saveBtn i:hover {
-  font-size: 25px;
+  font-size: 35px;
   transition: all 0.3s ease-in-out;
 }
